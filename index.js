@@ -3,7 +3,6 @@ import { server } from "./lib/server.js";
 const app = {};
 
 app.init = () => {
-    console.log('server bla bla');
     //sukurti pradinius folderius
     //sukurti pradinius files
 
