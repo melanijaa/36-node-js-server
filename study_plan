@@ -1,0 +1,19 @@
+kursim serveri:
+- page/routes
+- static files
+- api
+- cors
+- db (mysql/maria)
+- file upload
+
+settings:
+- port
+- aplinkos: dev, test, prod1, prod2;
+- aplinkos: dev, prod;
+- aplinkos: prod;
+
+request 
+ -> middleware (user: isLoggedIn)
+ -> middleware (user: isXXX)
+ -> middleware (user: isYYY)
+-> response (html, json)
